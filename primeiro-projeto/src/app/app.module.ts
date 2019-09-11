@@ -7,6 +7,8 @@ import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro-component';
 import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 import { CursosModule } from './cursos/cursos.module';
 
+import { MaterialModule } from './material.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,8 @@ import { CursosModule } from './cursos/cursos.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CursosModule
+    CursosModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
